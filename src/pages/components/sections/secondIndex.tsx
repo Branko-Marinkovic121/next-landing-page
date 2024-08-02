@@ -2,7 +2,7 @@ import styles from '../../../styles/sections/secondIndex.module.css';
 import BookingChoose from '../molecules/bookingChoose';
 import CardContactIcon from '../atoms/cardContactIcon';
 
-export default function secondIndex() {
+export default function SecondIndex() {
     const options = [
         { iconUrl: 'images/icons/destination.png', backColor: '#F0BB1F;', title: 'Choose Destination', content: 'Pick from a popular destination or enter your own destination for your next move.' },
         { iconUrl: 'images/icons/mover.png', backColor: '#F15A2B;', title: 'Submit Your Move', content: 'Scan your home and submit your project to receive bids.' },

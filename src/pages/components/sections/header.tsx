@@ -1,7 +1,7 @@
 import styles from '../../../styles/sections/header.module.css';
 import React, { useState } from 'react';
 
-export default function header() {
+export default function Header() {
 
     const [isToggled, setIsToggled] = useState(false);
 

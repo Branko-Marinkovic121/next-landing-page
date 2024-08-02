@@ -1,7 +1,7 @@
 import styles from '../../../styles/sections/firstIndex.module.css'
 import IndividualInput from '../molecules/individualInput'
 
-export default function firstIndex() {
+export default function FirstIndex() {
 
     const inputs = [
         { label: 'From', imgUrl: 'images/icons/from.png', option: 'Los Angeles, California' },

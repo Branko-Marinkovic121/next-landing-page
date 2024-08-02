@@ -1,6 +1,6 @@
 import styles from '../../../styles/molecules/recommendedCard.module.css';
 
-export default function recommendedCard({ imgUrl, destination, intro }) {
+export default function recommendedCard({ imgUrl, destination, intro }:any) {
     return (
         <div className={`${styles.body}`}>
             <img src={imgUrl} alt="" />

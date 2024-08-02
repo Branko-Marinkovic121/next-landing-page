@@ -1,6 +1,6 @@
 import styles from '../../../styles/sections/sixthIndex.module.css';
 
-export default function sixthIndex() {
+export default function SixthIndex() {
     return (
         <div className={`${styles.body}`}>
             <div className={`${styles.mainBack}`}>

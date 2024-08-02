@@ -1,10 +1,8 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Autoplay } from 'swiper';
+import SwiperCore from 'swiper';
 import 'swiper/swiper-bundle.css'; // Correct CSS import
 import RecommendedCard from '../molecules/recommendedCard';
-
-SwiperCore.use(Autoplay);
 
 const SwiperComponent = () => {
     const options = [
@@ -71,7 +69,6 @@ const SwiperComponent = () => {
                     spaceBetween: 60,
                 }
             }}
-            autoplay={{ delay: 3000 }}
         >
             {options.map((option, index) => (
                 <SwiperSlide key={index}>

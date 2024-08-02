@@ -2,7 +2,7 @@ import styles from '../../../styles/sections/thirdIndex.module.css';
 import RecommendedCard from '../molecules/recommendedCard';
 import SwiperComponent from '../slides/swiperSlide';
 
-export default function thirdIndex() {
+export default function ThirdIndex() {
     const options = [
         { imgUrl: 'images/atlas.png', destination: 'Atlas Van Lines', intro: 'Los Angeles, CA' },
         { imgUrl: 'images/truck.png', destination: 'International Van Lines', intro: 'Irvine, CA' },

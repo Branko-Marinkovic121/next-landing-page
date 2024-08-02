@@ -1,6 +1,6 @@
 import styles from '../../../styles/sections/fifthIndex.module.css'
 import SwiperSlideIcon from '../slides/swiperIconSlide';
-export default function fifthIndex() {
+export default function FifthIndex() {
     return (
         <div className={`${styles.body}`}>
             <div className={`${styles.mainBack}`}>

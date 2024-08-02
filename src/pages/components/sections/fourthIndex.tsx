@@ -1,6 +1,6 @@
 import styles from '../../../styles/sections/fourthIndex.module.css'
 
-export default function fourthIndex() {
+export default function FourthIndex() {
     return (
         <div className={`${styles.body}`}>
             <div className={`${styles.mainBack}`}>

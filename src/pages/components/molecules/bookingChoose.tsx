@@ -1,6 +1,6 @@
 import styles from '../../../styles/molecules/bookingChoose.module.css'
 
-export default function bookingChoose({iconUrl, backColor, title, content}) {
+export default function bookingChoose({iconUrl, backColor, title, content} : any) {
     return (
         <div className={`${styles.body}`}>
             <div className={`${styles.iconSection}`} style={{backgroundColor:`${backColor}`}}>
