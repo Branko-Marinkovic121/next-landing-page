@@ -18,7 +18,7 @@ export default function firstIndex() {
                             Moving People and Making The World A Smaller Place.
                         </p>
                         <div className={`${styles.inputSection}`}>
-                            <p className={`${styles.getHomeText}`}>Let's get to your next home.</p>
+                            <p className={`${styles.getHomeText}`}>Lets get to your next home.</p>
                             <div className={`${styles.mainInput}`}>
                                 {inputs.map((input, index) => (
                                     <IndividualInput
@@ -32,7 +32,7 @@ export default function firstIndex() {
                                     <img src="images/icons/swap-icon.png" alt="" />
                                 </div>
                                 <div className={`${styles.letsGoBtn}`}>
-                                    Let's go
+                                    Lets go
                                 </div>
                             </div>
                             <p className={`${styles.bottomContent}`}>
