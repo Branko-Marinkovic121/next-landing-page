@@ -1,16 +1,18 @@
 import styles from '../../../styles/sections/footer.module.css'
 import FooterIcon from '../atoms/footerIcon';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import dynamic from 'next/dynamic';
 import '@/styles/fonts/fontAwesome';
-export default function footer() {
+
+const Footer: React.FC = () => {
 
     const FontAwesomeIcon = dynamic(
         () => import('@fortawesome/react-fontawesome').then((mod) => mod.FontAwesomeIcon),
         { ssr: false }
     );
 
-    const [showCompanyLinks, setShowCompanyLinks] = useState(false);
+    const [showCompanyLinks, setShowCompanyLinks] = useState<boolean>(false);
+
     const [showContactLinks, setShowContactLinks] = useState(false);
     const [showMoreLinks, setShowMoreLinks] = useState(false);
 
@@ -175,3 +177,5 @@ export default function footer() {
         </div>
     )
 }
+
+export default Footer

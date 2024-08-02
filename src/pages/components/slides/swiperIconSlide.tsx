@@ -1,10 +1,8 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Autoplay } from 'swiper';
+import SwiperCore, { } from 'swiper';
 import 'swiper/swiper-bundle.css'; // Correct CSS import
 import styles from '../../../styles/sections/fifthIndex.module.css'
-
-SwiperCore.use(Autoplay);
 
 const SwiperSlideIcon = () => {
 
@@ -64,7 +62,6 @@ const SwiperSlideIcon = () => {
                     spaceBetween: 10,
                 }
             }}
-            autoplay={{ delay: 3000 }}
         >
             <SwiperSlide>
                 <div className={`${styles.slideIcon1}`}>
